@@ -9,4 +9,3 @@ def qr_code():
 
 qr_code()
 
-#~/storageDD/DEV/GIT/qrcode/codesQR/

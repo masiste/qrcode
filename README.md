@@ -4,6 +4,8 @@ Programs by generated qr codes
 Al intentar correr el programa qrCode.py despliega un error
 Se activa un entorno virtual con los comandos
 
+Creando entorno virtual e instalando paquetes necesarios
+
     carpeta>python3 -m venv venv_qrcode  -->  para crear carpeta del entorno virtual
     carpeta>source venv_qrcode/bin/activate   -->  para activar el entorno virtual
 
