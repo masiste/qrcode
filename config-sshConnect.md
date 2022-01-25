@@ -1,3 +1,10 @@
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
+
+Checking for existing SSH keys
+
+    $ ls -al ~/.ssh
+
+
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Generating a new SSH key
