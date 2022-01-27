@@ -60,3 +60,26 @@ Testing your SSH connection
 
         > Hi username! You've successfully authenticated, but GitHub does not
         > provide shell access.
+
+-----------------------------------------------------------
+Problem with access from console cmd
+
+    Authentication failed for 'https://github.com/masiste/qrcode.git/'
+
+https://stackoverflow.com/questions/69979522/fatal-authentication-failed-for-when-pushing-to-github-from-visual-studio-cod
+
+I faced this problem.... TO fix it, you should simply follow these steps:
+
+- Go to your github profile settings
+- Select Developer section and go to Personal Access token
+- Create a new acces Token ( Copy it as soon as it has been generated )
+- Then try to push some changes in your repository, you will be asked to put username and password
+- For the password, just paste the access token you just copied
+
+----------------------------------------------------------------
+
+config vscode terminal autentication
+
+select icon manage in the main bar
+
+manage > settings > extensions > git > enable terminal autentication
