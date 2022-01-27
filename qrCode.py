@@ -5,6 +5,7 @@ def qr_code():
  img = qrcode.make(user_data)
  img.save('./codesQR/QR Code.png')
  img.show()
+ print(type(user_data))
  print('\nQR Code Generated\n')
 
 qr_code()
