@@ -18,3 +18,4 @@ Guardar codigos generados al interior de la carpeta del proyecto con la ruta
 
     ./codesQR/code QR.png  --> con referencia al directorio actual del proyecto
 
+Los codigos QR generados son etiquetados segun el nombre del archivo ingresado utilizando el numero de documento y el grupo al que pertenece el estudiante para realizar el codigo QR
