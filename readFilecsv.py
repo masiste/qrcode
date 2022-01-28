@@ -1,6 +1,8 @@
 import csv
 
-with open('planilla.csv', newline='') as csvfile:
+with open('81_2022.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     for row in spamreader:
         print(' '.join(row))
+        print(type(row))
+
