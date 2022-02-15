@@ -4,7 +4,7 @@ leer archivo csv
         with open()
 
     method 2 
-       
+    s   
 
 campo incluidos en qr
     firtsName
