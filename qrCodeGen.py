@@ -14,5 +14,5 @@ rows = []
 for row in csvreader:
     row.append(csvDataFile[7:9]) # Agrega a la file un segmento de String de la ruta del archivo
     img = qrcode.make(row)
-    img.save(f'./codesQR/9-3/qr{row[0]}.png')
+    img.save(f'./codesQR/11-1/qr{row[0]}.png')
 
