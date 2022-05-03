@@ -1,5 +1,5 @@
 import csv
-from email import header
+import os
 import qrcode
 
 
@@ -11,8 +11,13 @@ header = []
 header = next(csvreader)
 rows = []
 
+parent_dir = "./codesQR"
+carpeta = csvDataFile[7:12]
+path = os.path.join(parent_dir,carpeta)
+os.mkdir(path)
+
 for row in csvreader:
-    row.append(csvDataFile[7:9]) # Agrega a la file un segmento de String de la ruta del archivo
+    # row.append(csvDataFile[7:10]) # Agrega a la file un segmento de String de la ruta del archivo
     img = qrcode.make(row)
-    img.save(f'./codesQR/11-1/qr{row[0]}.png')
+    img.save(f'{path}/qr{row[0]}.png')
 
