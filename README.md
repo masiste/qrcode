@@ -1,5 +1,5 @@
 # qrcode
-Programs by generated qr codes
+#Programs by generated qr codes
 
 Al intentar correr el programa qrCode.py despliega un error
 Se activa un entorno virtual con los comandos
